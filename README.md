@@ -15,3 +15,19 @@ External Access (ALB/Ingress): Provisioned a public-facing Application Load Bala
 
 ☁️ AWS EKS Deployment
 Amazon EKS was selected for its scalable and highly available Kubernetes control plane. The entire cluster infrastructure and lifecycle were managed using the eksctl CLI tool.
+
+***
+
+📸 Deployment Validation
+
+The application deployment was validated through the Kubernetes command line and the successful public web access.
+
+Kubernetes Status:All microservices achieved a healthy "Running" state after troubleshooting the Redis and storage dependencies.
+
+![Kubernetes Pod Status: All Running](images/Screenshot%202025-11-23%20165201.png)
+
+Application Running Live: The final application is accessible via the AWS ALB endpoint, confirming end-to-end functionality.
+
+![Stan's Robot Shop Web Application Running](images/Screenshot%202025-11-23%20171908.jpg)
+
+***
